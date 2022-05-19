@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/peter/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/New Unity Project/New Unity Project_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/peter/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/New Unity Project/New Unity Project_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/peter/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/New Unity Project/New Unity Project_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/peter/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/New Unity Project/New Unity Project_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1776146517">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3200950630" Language="SFX" Hash="1340340422">
+			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank_01</ObjectPath>
+			<ShortName>SoundBank_01</ShortName>
+			<Path>SoundBank_01.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3212575115" Name="Game_Start_event" ObjectPath="\Events\Default Work Unit\Game_Start_event" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1372499" Language="SFX">
+							<ShortName>M3_loop3_10bars_111bpm.wav</ShortName>
+							<Path>SFX/M3_loop3_10bars_111bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="8432933" Language="SFX">
+							<ShortName>M3_loop2_10bars_111bpm.wav</ShortName>
+							<Path>SFX/M3_loop2_10bars_111bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="114246291" Language="SFX">
+							<ShortName>M2_loop_8bars_90bpm.wav</ShortName>
+							<Path>SFX/M2_loop_8bars_90bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="369271702" Language="SFX">
+							<ShortName>M3_loop1_10bars_111bpm.wav</ShortName>
+							<Path>SFX/M3_loop1_10bars_111bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="547972645" Language="SFX">
+							<ShortName>M3_intro_10bars_111bpm.wav</ShortName>
+							<Path>SFX/M3_intro_10bars_111bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="612287263" Language="SFX">
+							<ShortName>M1_intro_4bars_90bpm.wav</ShortName>
+							<Path>SFX/M1_intro_4bars_90bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="619851903" Language="SFX">
+							<ShortName>M3_loop5_10bars_111bpm.wav</ShortName>
+							<Path>SFX/M3_loop5_10bars_111bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="805086940" Language="SFX">
+							<ShortName>M3_loop4_10bars_111bpm.wav</ShortName>
+							<Path>SFX/M3_loop4_10bars_111bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="808452054" Language="SFX">
+							<ShortName>M2_intro_16bars_90bpm.wav</ShortName>
+							<Path>SFX/M2_intro_16bars_90bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="810022766" Language="SFX">
+							<ShortName>M1_stinger_4bars_90bpm.wav</ShortName>
+							<Path>SFX/M1_stinger_4bars_90bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="831236471" Language="SFX">
+							<ShortName>M1_main_18bars_90bpm.wav</ShortName>
+							<Path>SFX/M1_main_18bars_90bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="848778514" Language="SFX">
+							<ShortName>M4_Music_130bpm.wav</ShortName>
+							<Path>SFX/M4_Music_130bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1029836796" Language="SFX">
+							<ShortName>M2_end_8bars_90bpm.wav</ShortName>
+							<Path>SFX/M2_end_8bars_90bpm_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{EDE624B5-1925-4559-AB37-E014B2F62DBB}">
+							<Media>
+								<File Id="612287263"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D5672C9A-7A9D-470E-ADF3-190FA597C075}">
+							<Media>
+								<File Id="831236471"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8516FEE1-5B82-407C-A1AB-5148D95F5C1B}">
+							<Media>
+								<File Id="1029836796"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{DF1EBE3E-A3FC-4D8B-9765-B7F72F69661C}">
+							<Media>
+								<File Id="114246291"/>
+								<File Id="808452054"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{32D99D82-0509-4D05-B099-E51C1671F009}">
+							<Media>
+								<File Id="1372499"/>
+								<File Id="8432933"/>
+								<File Id="369271702"/>
+								<File Id="547972645"/>
+								<File Id="619851903"/>
+								<File Id="805086940"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2A6E3C22-BC85-44BE-97EA-B479EAA05AFB}">
+							<Media>
+								<File Id="848778514"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2294279619" Name="M1_game_start_state" ObjectPath="\States\Default Work Unit\states\M1_game_start_state"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="455124344" Name="lagoon_event" ObjectPath="\Events\Default Work Unit\lagoon_event" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="76804238" Language="SFX">
+							<ShortName>S1_Bird_9.wav</ShortName>
+							<Path>SFX/S1_Bird_9_10C4C929.wem</Path>
+						</File>
+						<File Id="124817106" Language="SFX">
+							<ShortName>S1_cricket_3.wav</ShortName>
+							<Path>SFX/S1_cricket_3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="150713093" Language="SFX">
+							<ShortName>S1_Bird_7.wav</ShortName>
+							<Path>SFX/S1_Bird_7_10C4C929.wem</Path>
+						</File>
+						<File Id="168082024" Language="SFX">
+							<ShortName>S1_cricket_1.wav</ShortName>
+							<Path>SFX/S1_cricket_1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="264099020" Language="SFX">
+							<ShortName>S1_Bird_1.wav</ShortName>
+							<Path>SFX/S1_Bird_1_10C4C929.wem</Path>
+						</File>
+						<File Id="287115966" Language="SFX">
+							<ShortName>S1_Bird_13.wav</ShortName>
+							<Path>SFX/S1_Bird_13_10C4C929.wem</Path>
+						</File>
+						<File Id="394450075" Language="SFX">
+							<ShortName>S1_Bird_14.wav</ShortName>
+							<Path>SFX/S1_Bird_14_10C4C929.wem</Path>
+						</File>
+						<File Id="404482566" Language="SFX">
+							<ShortName>S1_Bird_12.wav</ShortName>
+							<Path>SFX/S1_Bird_12_10C4C929.wem</Path>
+						</File>
+						<File Id="475341684" Language="SFX">
+							<ShortName>S1_Bird_16.wav</ShortName>
+							<Path>SFX/S1_Bird_16_10C4C929.wem</Path>
+						</File>
+						<File Id="502655360" Language="SFX">
+							<ShortName>S1_Bird_11.wav</ShortName>
+							<Path>SFX/S1_Bird_11_10C4C929.wem</Path>
+						</File>
+						<File Id="523608375" Language="SFX">
+							<ShortName>S1_Bird_5.wav</ShortName>
+							<Path>SFX/S1_Bird_5_10C4C929.wem</Path>
+						</File>
+						<File Id="622241718" Language="SFX">
+							<ShortName>S1_cricket_2.wav</ShortName>
+							<Path>SFX/S1_cricket_2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="639527014" Language="SFX">
+							<ShortName>S1_Bird_6.wav</ShortName>
+							<Path>SFX/S1_Bird_6_10C4C929.wem</Path>
+						</File>
+						<File Id="730324607" Language="SFX">
+							<ShortName>S1_windloop.wav</ShortName>
+							<Path>SFX/S1_windloop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="757284032" Language="SFX">
+							<ShortName>S1_Bird_2.wav</ShortName>
+							<Path>SFX/S1_Bird_2_10C4C929.wem</Path>
+						</File>
+						<File Id="773819632" Language="SFX">
+							<ShortName>S1_Bird_10.wav</ShortName>
+							<Path>SFX/S1_Bird_10_10C4C929.wem</Path>
+						</File>
+						<File Id="783280863" Language="SFX">
+							<ShortName>S1_Bird_3.wav</ShortName>
+							<Path>SFX/S1_Bird_3_10C4C929.wem</Path>
+						</File>
+						<File Id="844884823" Language="SFX">
+							<ShortName>S1_Bird_15.wav</ShortName>
+							<Path>SFX/S1_Bird_15_10C4C929.wem</Path>
+						</File>
+						<File Id="932916108" Language="SFX">
+							<ShortName>S1_Bird_8.wav</ShortName>
+							<Path>SFX/S1_Bird_8_10C4C929.wem</Path>
+						</File>
+						<File Id="1063524045" Language="SFX">
+							<ShortName>S1_cricket_4.wav</ShortName>
+							<Path>SFX/S1_cricket_4_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2900974885" Name="lagoon_stop_event" ObjectPath="\Events\Default Work Unit\lagoon_stop_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3405469899" Name="M2_end_event" ObjectPath="\Events\Default Work Unit\M2_end_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2304912410" Name="M2_end" ObjectPath="\States\Default Work Unit\states\M2_end"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3522591708" Name="M2_start_event" ObjectPath="\Events\Default Work Unit\M2_start_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3180947566" Name="M2_state" ObjectPath="\States\Default Work Unit\states\M2_state"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3022445633" Name="M3_start_event" ObjectPath="\Events\Default Work Unit\M3_start_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3431380599" Name="M3_state" ObjectPath="\States\Default Work Unit\states\M3_state"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2359787571" Name="M4_event" ObjectPath="\Events\Default Work Unit\M4_event" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2600222324" Name="M4_state" ObjectPath="\States\Default Work Unit\states\M4_state"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2456358317" Name="menu_event" ObjectPath="\Events\Default Work Unit\menu_event" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1372499" Language="SFX">
+							<ShortName>M3_loop3_10bars_111bpm.wav</ShortName>
+							<Path>SFX/M3_loop3_10bars_111bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="8432933" Language="SFX">
+							<ShortName>M3_loop2_10bars_111bpm.wav</ShortName>
+							<Path>SFX/M3_loop2_10bars_111bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="114246291" Language="SFX">
+							<ShortName>M2_loop_8bars_90bpm.wav</ShortName>
+							<Path>SFX/M2_loop_8bars_90bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="369271702" Language="SFX">
+							<ShortName>M3_loop1_10bars_111bpm.wav</ShortName>
+							<Path>SFX/M3_loop1_10bars_111bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="547972645" Language="SFX">
+							<ShortName>M3_intro_10bars_111bpm.wav</ShortName>
+							<Path>SFX/M3_intro_10bars_111bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="612287263" Language="SFX">
+							<ShortName>M1_intro_4bars_90bpm.wav</ShortName>
+							<Path>SFX/M1_intro_4bars_90bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="619851903" Language="SFX">
+							<ShortName>M3_loop5_10bars_111bpm.wav</ShortName>
+							<Path>SFX/M3_loop5_10bars_111bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="805086940" Language="SFX">
+							<ShortName>M3_loop4_10bars_111bpm.wav</ShortName>
+							<Path>SFX/M3_loop4_10bars_111bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="808452054" Language="SFX">
+							<ShortName>M2_intro_16bars_90bpm.wav</ShortName>
+							<Path>SFX/M2_intro_16bars_90bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="810022766" Language="SFX">
+							<ShortName>M1_stinger_4bars_90bpm.wav</ShortName>
+							<Path>SFX/M1_stinger_4bars_90bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="831236471" Language="SFX">
+							<ShortName>M1_main_18bars_90bpm.wav</ShortName>
+							<Path>SFX/M1_main_18bars_90bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="848778514" Language="SFX">
+							<ShortName>M4_Music_130bpm.wav</ShortName>
+							<Path>SFX/M4_Music_130bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1029836796" Language="SFX">
+							<ShortName>M2_end_8bars_90bpm.wav</ShortName>
+							<Path>SFX/M2_end_8bars_90bpm_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="3941853002" Name="menu_state" ObjectPath="\States\Default Work Unit\states\menu_state"/>
+					</ActionSetState>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="1372499" Language="SFX">
+					<ShortName>M3_loop3_10bars_111bpm.wav</ShortName>
+					<Path>SFX/M3_loop3_10bars_111bpm_D79FB2B7.wem</Path>
+				</File>
+				<File Id="8432933" Language="SFX">
+					<ShortName>M3_loop2_10bars_111bpm.wav</ShortName>
+					<Path>SFX/M3_loop2_10bars_111bpm_D79FB2B7.wem</Path>
+				</File>
+				<File Id="76804238" Language="SFX">
+					<ShortName>S1_Bird_9.wav</ShortName>
+					<Path>SFX/S1_Bird_9_10C4C929.wem</Path>
+				</File>
+				<File Id="114246291" Language="SFX">
+					<ShortName>M2_loop_8bars_90bpm.wav</ShortName>
+					<Path>SFX/M2_loop_8bars_90bpm_D79FB2B7.wem</Path>
+				</File>
+				<File Id="124817106" Language="SFX">
+					<ShortName>S1_cricket_3.wav</ShortName>
+					<Path>SFX/S1_cricket_3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="150713093" Language="SFX">
+					<ShortName>S1_Bird_7.wav</ShortName>
+					<Path>SFX/S1_Bird_7_10C4C929.wem</Path>
+				</File>
+				<File Id="168082024" Language="SFX">
+					<ShortName>S1_cricket_1.wav</ShortName>
+					<Path>SFX/S1_cricket_1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="264099020" Language="SFX">
+					<ShortName>S1_Bird_1.wav</ShortName>
+					<Path>SFX/S1_Bird_1_10C4C929.wem</Path>
+				</File>
+				<File Id="287115966" Language="SFX">
+					<ShortName>S1_Bird_13.wav</ShortName>
+					<Path>SFX/S1_Bird_13_10C4C929.wem</Path>
+				</File>
+				<File Id="369271702" Language="SFX">
+					<ShortName>M3_loop1_10bars_111bpm.wav</ShortName>
+					<Path>SFX/M3_loop1_10bars_111bpm_D79FB2B7.wem</Path>
+				</File>
+				<File Id="394450075" Language="SFX">
+					<ShortName>S1_Bird_14.wav</ShortName>
+					<Path>SFX/S1_Bird_14_10C4C929.wem</Path>
+				</File>
+				<File Id="404482566" Language="SFX">
+					<ShortName>S1_Bird_12.wav</ShortName>
+					<Path>SFX/S1_Bird_12_10C4C929.wem</Path>
+				</File>
+				<File Id="475341684" Language="SFX">
+					<ShortName>S1_Bird_16.wav</ShortName>
+					<Path>SFX/S1_Bird_16_10C4C929.wem</Path>
+				</File>
+				<File Id="502655360" Language="SFX">
+					<ShortName>S1_Bird_11.wav</ShortName>
+					<Path>SFX/S1_Bird_11_10C4C929.wem</Path>
+				</File>
+				<File Id="523608375" Language="SFX">
+					<ShortName>S1_Bird_5.wav</ShortName>
+					<Path>SFX/S1_Bird_5_10C4C929.wem</Path>
+				</File>
+				<File Id="547972645" Language="SFX">
+					<ShortName>M3_intro_10bars_111bpm.wav</ShortName>
+					<Path>SFX/M3_intro_10bars_111bpm_D79FB2B7.wem</Path>
+				</File>
+				<File Id="612287263" Language="SFX">
+					<ShortName>M1_intro_4bars_90bpm.wav</ShortName>
+					<Path>SFX/M1_intro_4bars_90bpm_D79FB2B7.wem</Path>
+				</File>
+				<File Id="619851903" Language="SFX">
+					<ShortName>M3_loop5_10bars_111bpm.wav</ShortName>
+					<Path>SFX/M3_loop5_10bars_111bpm_D79FB2B7.wem</Path>
+				</File>
+				<File Id="622241718" Language="SFX">
+					<ShortName>S1_cricket_2.wav</ShortName>
+					<Path>SFX/S1_cricket_2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="639527014" Language="SFX">
+					<ShortName>S1_Bird_6.wav</ShortName>
+					<Path>SFX/S1_Bird_6_10C4C929.wem</Path>
+				</File>
+				<File Id="730324607" Language="SFX">
+					<ShortName>S1_windloop.wav</ShortName>
+					<Path>SFX/S1_windloop_D79FB2B7.wem</Path>
+				</File>
+				<File Id="757284032" Language="SFX">
+					<ShortName>S1_Bird_2.wav</ShortName>
+					<Path>SFX/S1_Bird_2_10C4C929.wem</Path>
+				</File>
+				<File Id="773819632" Language="SFX">
+					<ShortName>S1_Bird_10.wav</ShortName>
+					<Path>SFX/S1_Bird_10_10C4C929.wem</Path>
+				</File>
+				<File Id="783280863" Language="SFX">
+					<ShortName>S1_Bird_3.wav</ShortName>
+					<Path>SFX/S1_Bird_3_10C4C929.wem</Path>
+				</File>
+				<File Id="805086940" Language="SFX">
+					<ShortName>M3_loop4_10bars_111bpm.wav</ShortName>
+					<Path>SFX/M3_loop4_10bars_111bpm_D79FB2B7.wem</Path>
+				</File>
+				<File Id="808452054" Language="SFX">
+					<ShortName>M2_intro_16bars_90bpm.wav</ShortName>
+					<Path>SFX/M2_intro_16bars_90bpm_D79FB2B7.wem</Path>
+				</File>
+				<File Id="810022766" Language="SFX">
+					<ShortName>M1_stinger_4bars_90bpm.wav</ShortName>
+					<Path>SFX/M1_stinger_4bars_90bpm_D79FB2B7.wem</Path>
+				</File>
+				<File Id="831236471" Language="SFX">
+					<ShortName>M1_main_18bars_90bpm.wav</ShortName>
+					<Path>SFX/M1_main_18bars_90bpm_D79FB2B7.wem</Path>
+				</File>
+				<File Id="844884823" Language="SFX">
+					<ShortName>S1_Bird_15.wav</ShortName>
+					<Path>SFX/S1_Bird_15_10C4C929.wem</Path>
+				</File>
+				<File Id="848778514" Language="SFX">
+					<ShortName>M4_Music_130bpm.wav</ShortName>
+					<Path>SFX/M4_Music_130bpm_D79FB2B7.wem</Path>
+				</File>
+				<File Id="932916108" Language="SFX">
+					<ShortName>S1_Bird_8.wav</ShortName>
+					<Path>SFX/S1_Bird_8_10C4C929.wem</Path>
+				</File>
+				<File Id="1029836796" Language="SFX">
+					<ShortName>M2_end_8bars_90bpm.wav</ShortName>
+					<Path>SFX/M2_end_8bars_90bpm_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1063524045" Language="SFX">
+					<ShortName>S1_cricket_4.wav</ShortName>
+					<Path>SFX/S1_cricket_4_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<StateGroups>
+				<StateGroup Id="1208172739" Name="states" ObjectPath="\States\Default Work Unit\states" GUID="{5144825B-A5D4-4FC4-BBEA-507ECA45800C}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\states\None" GUID="{D6E1EAF6-4BD9-414A-A10F-42777DE65DCA}"/>
+						<State Id="2294279619" Name="M1_game_start_state" ObjectPath="\States\Default Work Unit\states\M1_game_start_state" GUID="{D5672C9A-7A9D-470E-ADF3-190FA597C075}"/>
+						<State Id="3941853002" Name="menu_state" ObjectPath="\States\Default Work Unit\states\menu_state" GUID="{EDE624B5-1925-4559-AB37-E014B2F62DBB}"/>
+						<State Id="3180947566" Name="M2_state" ObjectPath="\States\Default Work Unit\states\M2_state" GUID="{DF1EBE3E-A3FC-4D8B-9765-B7F72F69661C}"/>
+						<State Id="2304912410" Name="M2_end" ObjectPath="\States\Default Work Unit\states\M2_end" GUID="{8516FEE1-5B82-407C-A1AB-5148D95F5C1B}"/>
+						<State Id="1078499911" Name="at_lagoon_state" ObjectPath="\States\Default Work Unit\states\at_lagoon_state" GUID="{7D8C1DDF-09BD-49D5-912C-CA3910E4F096}"/>
+						<State Id="3431380599" Name="M3_state" ObjectPath="\States\Default Work Unit\states\M3_state" GUID="{32D99D82-0509-4D05-B099-E51C1671F009}"/>
+						<State Id="2600222324" Name="M4_state" ObjectPath="\States\Default Work Unit\states\M4_state" GUID="{2A6E3C22-BC85-44BE-97EA-B479EAA05AFB}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2294279619" Name="M1_game_start_state" ObjectPath="\States\Default Work Unit\states\M1_game_start_state" GUID="{D5672C9A-7A9D-470E-ADF3-190FA597C075}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2304912410" Name="M2_end" ObjectPath="\States\Default Work Unit\states\M2_end" GUID="{8516FEE1-5B82-407C-A1AB-5148D95F5C1B}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2600222324" Name="M4_state" ObjectPath="\States\Default Work Unit\states\M4_state" GUID="{2A6E3C22-BC85-44BE-97EA-B479EAA05AFB}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3180947566" Name="M2_state" ObjectPath="\States\Default Work Unit\states\M2_state" GUID="{DF1EBE3E-A3FC-4D8B-9765-B7F72F69661C}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3431380599" Name="M3_state" ObjectPath="\States\Default Work Unit\states\M3_state" GUID="{32D99D82-0509-4D05-B099-E51C1671F009}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3941853002" Name="menu_state" ObjectPath="\States\Default Work Unit\states\menu_state" GUID="{EDE624B5-1925-4559-AB37-E014B2F62DBB}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

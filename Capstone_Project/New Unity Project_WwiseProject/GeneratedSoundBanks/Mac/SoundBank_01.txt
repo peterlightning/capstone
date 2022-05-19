@@ -1,0 +1,65 @@
+Event	ID	Name			Wwise Object Path	Notes
+	455124344	lagoon_event			\Default Work Unit\lagoon_event	
+	2359787571	M4_event			\Default Work Unit\M4_event	
+	2456358317	menu_event			\Default Work Unit\menu_event	
+	2900974885	lagoon_stop_event			\Default Work Unit\lagoon_stop_event	
+	3022445633	M3_start_event			\Default Work Unit\M3_start_event	
+	3212575115	Game_Start_event			\Default Work Unit\Game_Start_event	
+	3405469899	M2_end_event			\Default Work Unit\M2_end_event	
+	3522591708	M2_start_event			\Default Work Unit\M2_start_event	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1208172739	states			\Default Work Unit\states	
+
+State	ID	Name	State Group			Notes
+	748895195	None	states			
+	1078499911	at_lagoon_state	states			
+	2294279619	M1_game_start_state	states			
+	2304912410	M2_end	states			
+	2600222324	M4_state	states			
+	3180947566	M2_state	states			
+	3431380599	M3_state	states			
+	3941853002	menu_state	states			
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	23628667	New Modulator Envelope			\Default Work Unit\New Modulator Envelope	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	460182231	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\birds\scilence-2\Wwise Silence	
+	951092518	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\birds\Silence\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1372499	M3_loop2_10bars_111bpm	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\M3_loop3_10bars_111bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_start_music_selector\M3_music_playlist\M3_loops_10bars_111bpm\M3_loop2_10bars_111bpm		4358984
+	8432933	M3_loop2_10bars_111bpm	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\M3_loop2_10bars_111bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_start_music_selector\M3_music_playlist\M3_loops_10bars_111bpm\M3_loop2_10bars_111bpm		4358984
+	76804238	S1_Bird_9	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_Bird_9_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\birds\S1_Bird_9		329396
+	114246291	M2_loop_8bars_90bpm	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\M2_loop_8bars_90bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_start_music_selector\M2_music_playlist\M2_loop_8bars_90bpm\M2_loop_8bars_90bpm		6144064
+	124817106	S1_cricket_3	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_cricket_3_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\crickets\S1_cricket_3		618908
+	150713093	S1_Bird_7	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_Bird_7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\birds\S1_Bird_7		460916
+	168082024	S1_cricket_1	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_cricket_1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\crickets\S1_cricket_1		365024
+	264099020	S1_Bird_1	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_Bird_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\birds\S1_Bird_1		395652
+	287115966	S1_Bird_13	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_Bird_13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\birds\S1_Bird_13		375092
+	369271702	M3_loop2_10bars_111bpm	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\M3_loop1_10bars_111bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_start_music_selector\M3_music_playlist\M3_loops_10bars_111bpm\M3_loop2_10bars_111bpm		4358984
+	394450075	S1_Bird_14	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_Bird_14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\birds\S1_Bird_14		569976
+	404482566	S1_Bird_12	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_Bird_12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\birds\S1_Bird_12		496744
+	475341684	S1_Bird_16	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_Bird_16_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\birds\S1_Bird_16		269500
+	502655360	S1_Bird_11	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_Bird_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\birds\S1_Bird_11		706680
+	523608375	S1_Bird_5	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_Bird_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\birds\S1_Bird_5		581372
+	547972645	M3_intro_10bars_111bpm	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\M3_intro_10bars_111bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_start_music_selector\M3_music_playlist\M3_intro_10bars_111bpm\M3_intro_10bars_111bpm		4358984
+	612287263	M1_intro_4bars_90bpm	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\M1_intro_4bars_90bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_start_music_selector\menu\M1_intro_4bars_90bpm\M1_intro_4bars_90bpm		2048064
+	619851903	M3_loop2_10bars_111bpm	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\M3_loop5_10bars_111bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_start_music_selector\M3_music_playlist\M3_loops_10bars_111bpm\M3_loop2_10bars_111bpm		4358984
+	622241718	S1_cricket_2	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_cricket_2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\crickets\S1_cricket_2		444364
+	639527014	S1_Bird_6	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_Bird_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\birds\S1_Bird_6		272912
+	730324607	S1_windloop	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_windloop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\wind\S1_windloop		2665852
+	757284032	S1_Bird_2	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_Bird_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\birds\S1_Bird_2		371856
+	773819632	S1_Bird_10	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_Bird_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\birds\S1_Bird_10		354348
+	783280863	S1_Bird_3	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_Bird_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\birds\S1_Bird_3		221960
+	805086940	M3_loop2_10bars_111bpm	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\M3_loop4_10bars_111bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_start_music_selector\M3_music_playlist\M3_loops_10bars_111bpm\M3_loop2_10bars_111bpm		4358984
+	808452054	M2_intro_16bars_90bpm	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\M2_intro_16bars_90bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_start_music_selector\M2_music_playlist\M2_intro_16bars_90bpm\M2_intro_16bars_90bpm		8192064
+	810022766	M1_stinger_4bars_90bpm	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\M1_stinger_4bars_90bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_start_music_selector\M1_transition\M1_stinger_4bars_90bpm		2048064
+	831236471	M1_main_18bars_90bpm	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\M1_main_18bars_90bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_start_music_selector\M1_main_music\M1_main_18bars_90bpm\M1_main_18bars_90bpm		9216064
+	844884823	S1_Bird_15	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_Bird_15_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\birds\S1_Bird_15		131768
+	848778514	M4_Music_130bpm	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\M4_Music_130bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_start_music_selector\M4_music\M4_Music_130bpm		20709520
+	932916108	S1_Bird_8	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_Bird_8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\birds\S1_Bird_8		494764
+	1029836796	M2_end_8bars_90bpm	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\M2_end_8bars_90bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game_start_music_selector\M2_end_8bars_90bpm\M2_end_8bars_90bpm		4096064
+	1063524045	S1_cricket_4	Y:\Desktop\New Unity Project\New Unity Project_WwiseProject\.cache\Mac\SFX\S1_cricket_4_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lagoon\lagoon_blend containter\crickets\S1_cricket_4		1036516
+

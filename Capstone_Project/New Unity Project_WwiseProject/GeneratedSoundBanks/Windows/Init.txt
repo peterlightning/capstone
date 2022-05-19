@@ -1,0 +1,20 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1208172739	states			\Default Work Unit\states	
+
+State	ID	Name	State Group			Notes
+	748895195	None	states			
+	1078499911	at_lagoon_state	states			
+	2294279619	M1_game_start_state	states			
+	2304912410	M2_end	states			
+	2600222324	M4_state	states			
+	3180947566	M2_state	states			
+	3431380599	M3_state	states			
+	3941853002	menu_state	states			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

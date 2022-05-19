@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a96a96ea33c4cdd8a91f4819627cf4, type: 3}
+  m_Name: 5B2400FB-BE82-4337-BD43-E84DB94CF478
+  m_EditorClassIdentifier: 
+  objectName: menu_event
+  id: 2456358317
+  guid: 5B2400FB-BE82-4337-BD43-E84DB94CF478

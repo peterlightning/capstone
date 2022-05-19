@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5E109FEF-32A8-4BC1-8764-19C6B38628DA}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{5E109FEF-32A8-4BC1-8764-19C6B38628DA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Game_Start_event" ID="{F98460AB-BC8F-4497-9993-A45487C7214A}">
+					<ChildrenList>
+						<Action Name="" ID="{93043DC5-B24A-473B-9A86-97B9DA455227}" ShortID="416159809">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game_start_music_selector" ID="{D679F85A-EE37-4850-86D3-F0C0CCCE0506}" WorkUnitID="{0BC56D00-2F2C-45E0-AE96-6AC35AD19026}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0D7B14A3-1413-4CE7-9109-9EF4BE123951}" ShortID="381884191">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="M1_game_start_state" ID="{D5672C9A-7A9D-470E-ADF3-190FA597C075}" WorkUnitID="{9CA2D29F-1F30-44C5-95D6-9762122CF82B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E7D04D3E-4ADA-4687-9F89-9939F5A5DC03}" ShortID="540294849">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menu" ID="{337626D3-ABD1-4D03-B6D5-71ABD086BD74}" WorkUnitID="{0BC56D00-2F2C-45E0-AE96-6AC35AD19026}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="lagoon_event" ID="{2A3982F6-4202-4D73-B470-4A0DDDF974F8}">
+					<ChildrenList>
+						<Action Name="" ID="{F5B576FF-1270-4E70-AD27-DC64997CDC65}" ShortID="89104258">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="lagoon_blend containter" ID="{B7E6883B-521E-4E8E-88A0-CBFDEFA72637}" WorkUnitID="{C3589178-B3DB-426D-B7DF-3BCDEDDF8F7E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8E2C4526-55E0-49A3-A0DA-4D61903CF1C9}" ShortID="827119223">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game_start_music_selector" ID="{D679F85A-EE37-4850-86D3-F0C0CCCE0506}" WorkUnitID="{0BC56D00-2F2C-45E0-AE96-6AC35AD19026}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="M3_start_event" ID="{7A25D553-1935-48B3-830D-27CC82B406C7}">
+					<ChildrenList>
+						<Action Name="" ID="{F1423144-88B5-42A9-8439-D89BB5FFAEB8}" ShortID="723045176">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="M3_music_playlist" ID="{718466D3-1EA0-4D1A-AF60-03BE1BC3B851}" WorkUnitID="{0BC56D00-2F2C-45E0-AE96-6AC35AD19026}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{11C08000-96BD-44CC-B832-27799769BE31}" ShortID="316128027">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="lagoon_blend containter" ID="{B7E6883B-521E-4E8E-88A0-CBFDEFA72637}" WorkUnitID="{C3589178-B3DB-426D-B7DF-3BCDEDDF8F7E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FCC7B3A2-971E-4C8C-93A5-5688A23F09D2}" ShortID="654102688">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="M3_state" ID="{32D99D82-0509-4D05-B099-E51C1671F009}" WorkUnitID="{9CA2D29F-1F30-44C5-95D6-9762122CF82B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="menu_event" ID="{5B2400FB-BE82-4337-BD43-E84DB94CF478}">
+					<ChildrenList>
+						<Action Name="" ID="{8848659D-AA59-4323-924A-15D5365A569C}" ShortID="552396679">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game_start_music_selector" ID="{D679F85A-EE37-4850-86D3-F0C0CCCE0506}" WorkUnitID="{0BC56D00-2F2C-45E0-AE96-6AC35AD19026}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0A76CA59-5A91-49CE-BF90-31E73CF371E1}" ShortID="235813">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menu_state" ID="{EDE624B5-1925-4559-AB37-E014B2F62DBB}" WorkUnitID="{9CA2D29F-1F30-44C5-95D6-9762122CF82B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="M2_start_event" ID="{7E0DD59E-A06A-4C11-8BA4-BD9E50C99E1A}">
+					<ChildrenList>
+						<Action Name="" ID="{813FB48A-7419-4338-8782-5AC90DC3C00A}" ShortID="273271525">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="M2_state" ID="{DF1EBE3E-A3FC-4D8B-9765-B7F72F69661C}" WorkUnitID="{9CA2D29F-1F30-44C5-95D6-9762122CF82B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6057E697-5588-48FF-A92E-33CF249E1DD5}" ShortID="1012472490">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game_start_music_selector" ID="{D679F85A-EE37-4850-86D3-F0C0CCCE0506}" WorkUnitID="{0BC56D00-2F2C-45E0-AE96-6AC35AD19026}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="M2_end_event" ID="{FD0741D8-9862-4356-9E16-278CD10D9785}">
+					<ChildrenList>
+						<Action Name="" ID="{369DB1E6-BB5D-4DBE-8A8A-FF7B72F2D119}" ShortID="43123929">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="M2_end_8bars_90bpm" ID="{FD46F129-7606-4028-8A54-C05BC8376C36}" WorkUnitID="{0BC56D00-2F2C-45E0-AE96-6AC35AD19026}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BF7F6A86-2355-4728-AF95-2B5975D1D7D9}" ShortID="286872741">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="M2_end" ID="{8516FEE1-5B82-407C-A1AB-5148D95F5C1B}" WorkUnitID="{9CA2D29F-1F30-44C5-95D6-9762122CF82B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="M4_event" ID="{F90DA522-B83A-4E0C-8FA8-44C4AD6C04F9}">
+					<ChildrenList>
+						<Action Name="" ID="{4B8F18DE-D74B-43B2-984F-F16ABA48FBC6}" ShortID="750564440">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="M4_state" ID="{2A6E3C22-BC85-44BE-97EA-B479EAA05AFB}" WorkUnitID="{9CA2D29F-1F30-44C5-95D6-9762122CF82B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="lagoon_stop_event" ID="{C9FFCD3D-974E-451D-A2F2-D02FC0454B01}">
+					<ChildrenList>
+						<Action Name="" ID="{8FEF503B-B099-43BE-8BB9-4BFEFADC6FCE}" ShortID="552386119">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="lagoon_blend containter" ID="{B7E6883B-521E-4E8E-88A0-CBFDEFA72637}" WorkUnitID="{C3589178-B3DB-426D-B7DF-3BCDEDDF8F7E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{08C184F2-D1D3-49CF-B521-081C1D0EA483}" ShortID="1033476085">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game_start_music_selector" ID="{D679F85A-EE37-4850-86D3-F0C0CCCE0506}" WorkUnitID="{0BC56D00-2F2C-45E0-AE96-6AC35AD19026}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

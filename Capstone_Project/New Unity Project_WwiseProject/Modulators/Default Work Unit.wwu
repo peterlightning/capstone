@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F5FBDE4C-F7CD-40DD-8CBA-332E70117D1B}" SchemaVersion="103">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{F5FBDE4C-F7CD-40DD-8CBA-332E70117D1B}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorTime Name="New Modulator Time" ID="{1D9E2D20-C441-40BD-ABC6-F02408CCAB9A}" ShortID="497147951"/>
+				<ModulatorEnvelope Name="New Modulator Envelope" ID="{BF662C23-40F3-47AF-B04A-978AA1EFD619}" ShortID="23628667">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="77"/>
+						<Property Name="EnvelopeAttackTime" Type="Real64" Value="25"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

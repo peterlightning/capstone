@@ -1,0 +1,442 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd2bea0887e541199b396b8685ede66, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: ce1e82631404d84db008646a120883b0
+    ParentPath: Virtual Acoustics/Default Work Unit
+    guid: ce1e82631404d84db008646a120883b0
+    GuidInternal: 
+    m_lastTime: -8585642323454775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: eb2465b84ccba246b4a10f947af0786f
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    guid: eb2465b84ccba246b4a10f947af0786f
+    GuidInternal: 
+    m_lastTime: -8585642323454775808
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: eb2465b84ccba246b4a10f947af0786f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 3fa8a3126708dc4fa97f6efc2ae8250d
+    ParentPath: SoundBanks/Default Work Unit
+    guid: 3fa8a3126708dc4fa97f6efc2ae8250d
+    GuidInternal: 
+    m_lastTime: -8585620695444775808
+    List:
+    - name: SoundBank_01
+      guid: 326dfaa5e46aa049a05a05325431372f
+      id: 3200950630
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3fa8a3126708dc4fa97f6efc2ae8250d
+      - ElementName: SoundBank_01
+        ObjectType: 7
+        guid: 326dfaa5e46aa049a05a05325431372f
+      Path: SoundBanks/Default Work Unit/SoundBank_01
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: ef9f105ea832c14b876419c6b38628da
+    ParentPath: Events/Default Work Unit
+    guid: ef9f105ea832c14b876419c6b38628da
+    GuidInternal: 
+    m_lastTime: -8585619142064775808
+    List:
+    - name: Game_Start_event
+      guid: ab6084f98fbc97449993a45487c7214a
+      id: 3212575115
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ef9f105ea832c14b876419c6b38628da
+      - ElementName: Game_Start_event
+        ObjectType: 3
+        guid: ab6084f98fbc97449993a45487c7214a
+      Path: Events/Default Work Unit/Game_Start_event
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: lagoon_event
+      guid: f682392a0242734db4704a0dddf974f8
+      id: 455124344
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ef9f105ea832c14b876419c6b38628da
+      - ElementName: lagoon_event
+        ObjectType: 3
+        guid: f682392a0242734db4704a0dddf974f8
+      Path: Events/Default Work Unit/lagoon_event
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: lagoon_stop_event
+      guid: 3dcdffc94e971d45a2f2d02fc0454b01
+      id: 2900974885
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ef9f105ea832c14b876419c6b38628da
+      - ElementName: lagoon_stop_event
+        ObjectType: 3
+        guid: 3dcdffc94e971d45a2f2d02fc0454b01
+      Path: Events/Default Work Unit/lagoon_stop_event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: M2_end_event
+      guid: d84107fd629856439e16278cd10d9785
+      id: 3405469899
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ef9f105ea832c14b876419c6b38628da
+      - ElementName: M2_end_event
+        ObjectType: 3
+        guid: d84107fd629856439e16278cd10d9785
+      Path: Events/Default Work Unit/M2_end_event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: M2_start_event
+      guid: 9ed50d7e6aa0114c8ba4bd9e50c99e1a
+      id: 3522591708
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ef9f105ea832c14b876419c6b38628da
+      - ElementName: M2_start_event
+        ObjectType: 3
+        guid: 9ed50d7e6aa0114c8ba4bd9e50c99e1a
+      Path: Events/Default Work Unit/M2_start_event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: M3_start_event
+      guid: 53d5257a3519b348830d27cc82b406c7
+      id: 3022445633
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ef9f105ea832c14b876419c6b38628da
+      - ElementName: M3_start_event
+        ObjectType: 3
+        guid: 53d5257a3519b348830d27cc82b406c7
+      Path: Events/Default Work Unit/M3_start_event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: M4_event
+      guid: 22a50df93ab80c4e8fa844c4ad6c04f9
+      id: 2359787571
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ef9f105ea832c14b876419c6b38628da
+      - ElementName: M4_event
+        ObjectType: 3
+        guid: 22a50df93ab80c4e8fa844c4ad6c04f9
+      Path: Events/Default Work Unit/M4_event
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: menu_event
+      guid: fb00245b82be3743bd43e84db94cf478
+      id: 2456358317
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ef9f105ea832c14b876419c6b38628da
+      - ElementName: menu_event
+        ObjectType: 3
+        guid: fb00245b82be3743bd43e84db94cf478
+      Path: Events/Default Work Unit/menu_event
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: cabce3f3fa4fcc4ea55f6ab792a85dee
+    ParentPath: Game Parameters/Default Work Unit
+    guid: cabce3f3fa4fcc4ea55f6ab792a85dee
+    GuidInternal: 
+    m_lastTime: -8585642323454775808
+    List: []
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9fd2a29c301fc54495d69762122cf82b
+    ParentPath: States/Default Work Unit
+    guid: 9fd2a29c301fc54495d69762122cf82b
+    GuidInternal: 
+    m_lastTime: -8585621433864775808
+    List:
+    - name: states
+      guid: 5b824451d4a5c44fbbea507eca45800c
+      id: 1208172739
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9fd2a29c301fc54495d69762122cf82b
+      - ElementName: states
+        ObjectType: 9
+        guid: 5b824451d4a5c44fbbea507eca45800c
+      Path: States/Default Work Unit/states
+      values:
+      - name: at_lagoon_state
+        guid: df1d8c7dbd09d549912cca3910e4f096
+        id: 1078499911
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9fd2a29c301fc54495d69762122cf82b
+        - ElementName: states
+          ObjectType: 9
+          guid: 5b824451d4a5c44fbbea507eca45800c
+        - ElementName: at_lagoon_state
+          ObjectType: 8
+          guid: df1d8c7dbd09d549912cca3910e4f096
+      - name: M1_game_start_state
+        guid: 9a2c67d59d7a0e47adf3190fa597c075
+        id: 2294279619
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9fd2a29c301fc54495d69762122cf82b
+        - ElementName: states
+          ObjectType: 9
+          guid: 5b824451d4a5c44fbbea507eca45800c
+        - ElementName: M1_game_start_state
+          ObjectType: 8
+          guid: 9a2c67d59d7a0e47adf3190fa597c075
+      - name: M2_end
+        guid: e1fe1685825b7c40a1ab5148d95f5c1b
+        id: 2304912410
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9fd2a29c301fc54495d69762122cf82b
+        - ElementName: states
+          ObjectType: 9
+          guid: 5b824451d4a5c44fbbea507eca45800c
+        - ElementName: M2_end
+          ObjectType: 8
+          guid: e1fe1685825b7c40a1ab5148d95f5c1b
+      - name: M2_state
+        guid: 3ebe1edffca38b4d9765b7f72f69661c
+        id: 3180947566
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9fd2a29c301fc54495d69762122cf82b
+        - ElementName: states
+          ObjectType: 9
+          guid: 5b824451d4a5c44fbbea507eca45800c
+        - ElementName: M2_state
+          ObjectType: 8
+          guid: 3ebe1edffca38b4d9765b7f72f69661c
+      - name: M3_state
+        guid: 829dd9320905054db099e51c1671f009
+        id: 3431380599
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9fd2a29c301fc54495d69762122cf82b
+        - ElementName: states
+          ObjectType: 9
+          guid: 5b824451d4a5c44fbbea507eca45800c
+        - ElementName: M3_state
+          ObjectType: 8
+          guid: 829dd9320905054db099e51c1671f009
+      - name: M4_state
+        guid: 223c6e2a85bcbe4497eab479eaa05afb
+        id: 2600222324
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9fd2a29c301fc54495d69762122cf82b
+        - ElementName: states
+          ObjectType: 9
+          guid: 5b824451d4a5c44fbbea507eca45800c
+        - ElementName: M4_state
+          ObjectType: 8
+          guid: 223c6e2a85bcbe4497eab479eaa05afb
+      - name: menu_state
+        guid: b524e6ed25195945ab37e014b2f62dbb
+        id: 3941853002
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9fd2a29c301fc54495d69762122cf82b
+        - ElementName: states
+          ObjectType: 9
+          guid: 5b824451d4a5c44fbbea507eca45800c
+        - ElementName: menu_state
+          ObjectType: 8
+          guid: b524e6ed25195945ab37e014b2f62dbb
+      - name: None
+        guid: f6eae1d6d94b4a41a10f42777de65dca
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 9fd2a29c301fc54495d69762122cf82b
+        - ElementName: states
+          ObjectType: 9
+          guid: 5b824451d4a5c44fbbea507eca45800c
+        - ElementName: None
+          ObjectType: 8
+          guid: f6eae1d6d94b4a41a10f42777de65dca
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: be9d8262d0348041961986d29b6358ea
+    ParentPath: Switches/Default Work Unit
+    guid: be9d8262d0348041961986d29b6358ea
+    GuidInternal: 
+    m_lastTime: -8585642323454775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 04010b58015f194bbefd8bc45fada863
+    ParentPath: Triggers/Default Work Unit
+    guid: 04010b58015f194bbefd8bc45fada863
+    GuidInternal: 
+    m_lastTime: -8585642323454775808
+    List: []
+  ExpandedFileSystemItemIds: 0100000002000000030000000400000005000000060000000700000008000000090000000c0000000d0000000e0000000f00000010000000110000001700000018000000
+  ExpandedWaapiItemIds: 0100000003000000050000000600000008000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 1
+  CurrentPluginConfig: 

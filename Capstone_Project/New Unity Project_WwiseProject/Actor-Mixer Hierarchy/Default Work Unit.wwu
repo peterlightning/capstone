@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C3589178-B3DB-426D-B7DF-3BCDEDDF8F7E}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{C3589178-B3DB-426D-B7DF-3BCDEDDF8F7E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Lagoon" ID="{3F5F684E-4BD5-4B57-B8B0-642EDA606E7F}" ShortID="898033306">
+					<ChildrenList>
+						<BlendContainer Name="lagoon_blend containter" ID="{B7E6883B-521E-4E8E-88A0-CBFDEFA72637}" ShortID="836838683">
+							<PropertyList>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{B43CCC9E-D215-43A3-A773-6B9CDD5EB1C8}" ShortID="61938687">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="New Modulator Envelope" ID="{BF662C23-40F3-47AF-B04A-978AA1EFD619}" WorkUnitID="{F5FBDE4C-F7CD-40DD-8CBA-332E70117D1B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{50F1299F-D192-4057-9227-9F2A382DFADA}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="birds" ID="{729A325C-7FA5-4244-A43E-54A04BCDC016}" ShortID="340675541">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-24</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="S1_Bird_1" ID="{F46E702F-D346-41DF-BCA6-898E0D54FECD}" ShortID="1015717014">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_Bird_1" ID="{41A2AD34-36AC-49D9-B9EC-32984DF3301B}">
+													<Language>SFX</Language>
+													<AudioFile>S1_Bird_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="264099020"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_Bird_1" ID="{41A2AD34-36AC-49D9-B9EC-32984DF3301B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="S1_Bird_2" ID="{EF1471AC-D286-451E-B039-AA638FEC4A2C}" ShortID="300826211">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_Bird_2" ID="{D84F3494-8EB2-4512-BC8D-BB280CAA0AC1}">
+													<Language>SFX</Language>
+													<AudioFile>S1_Bird_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="757284032"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_Bird_2" ID="{D84F3494-8EB2-4512-BC8D-BB280CAA0AC1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="S1_Bird_3" ID="{77570E54-A9CE-47F7-AEB2-C497249AA2F8}" ShortID="101117277">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_Bird_3" ID="{F24AE36C-B37E-48EC-8D5D-9FC6E2965DEF}">
+													<Language>SFX</Language>
+													<AudioFile>S1_Bird_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="783280863"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_Bird_3" ID="{F24AE36C-B37E-48EC-8D5D-9FC6E2965DEF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="S1_Bird_5" ID="{90DCF48A-33BB-4004-9F16-34DB6AE04104}" ShortID="720680517">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_Bird_5" ID="{20104F8B-FECA-4C7C-BB21-5F5F27C38D78}">
+													<Language>SFX</Language>
+													<AudioFile>S1_Bird_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="523608375"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_Bird_5" ID="{20104F8B-FECA-4C7C-BB21-5F5F27C38D78}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="S1_Bird_6" ID="{54CC27A3-4DA1-4A03-9889-540FC0DECE66}" ShortID="123312350">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_Bird_6" ID="{4D11E35E-A383-4E05-BE21-D981F5C68FD1}">
+													<Language>SFX</Language>
+													<AudioFile>S1_Bird_6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="639527014"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_Bird_6" ID="{4D11E35E-A383-4E05-BE21-D981F5C68FD1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="S1_Bird_7" ID="{A98040EA-CE1E-4F05-9F60-E3E6F7689BC7}" ShortID="315696150">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_Bird_7" ID="{ED45CAD1-F142-4513-9C24-A172265AD45E}">
+													<Language>SFX</Language>
+													<AudioFile>S1_Bird_7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="150713093"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_Bird_7" ID="{ED45CAD1-F142-4513-9C24-A172265AD45E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="S1_Bird_8" ID="{9DCD2C8A-96D0-4A5C-98D2-87800B769C19}" ShortID="797817895">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_Bird_8" ID="{52B59261-65F2-48B5-A9C5-D2549A9B4B42}">
+													<Language>SFX</Language>
+													<AudioFile>S1_Bird_8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="932916108"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_Bird_8" ID="{52B59261-65F2-48B5-A9C5-D2549A9B4B42}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="S1_Bird_9" ID="{86D47022-ACDF-470E-93AB-74A186612066}" ShortID="635382705">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_Bird_9" ID="{0BB31453-F482-427E-89E7-05ED993103FC}">
+													<Language>SFX</Language>
+													<AudioFile>S1_Bird_9.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="76804238"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_Bird_9" ID="{0BB31453-F482-427E-89E7-05ED993103FC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="S1_Bird_10" ID="{1D253698-EAFA-4627-95E6-1ADB30CE79A6}" ShortID="1060422942">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_Bird_10" ID="{50A5EC4B-EC9B-4075-99AA-B34E677352D4}">
+													<Language>SFX</Language>
+													<AudioFile>S1_Bird_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="773819632"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_Bird_10" ID="{50A5EC4B-EC9B-4075-99AA-B34E677352D4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="S1_Bird_11" ID="{7B10B1EE-90B0-45A0-B98D-B25A7B827FE2}" ShortID="562801540">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_Bird_11" ID="{882695D6-EAEA-4FAD-8297-AA145052183E}">
+													<Language>SFX</Language>
+													<AudioFile>S1_Bird_11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="502655360"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_Bird_11" ID="{882695D6-EAEA-4FAD-8297-AA145052183E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="S1_Bird_12" ID="{0D047E90-113A-4A3E-A47B-F5F8BFBF28A3}" ShortID="443537886">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_Bird_12" ID="{74DEF4C5-67F0-4238-B6D3-730BA2A5DCF7}">
+													<Language>SFX</Language>
+													<AudioFile>S1_Bird_12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="404482566"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_Bird_12" ID="{74DEF4C5-67F0-4238-B6D3-730BA2A5DCF7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="S1_Bird_13" ID="{403A1DD8-4749-4977-9563-D7EB9BFBCA26}" ShortID="802851895">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_Bird_13" ID="{0B54CA86-235C-46B8-84AA-479A54A036B5}">
+													<Language>SFX</Language>
+													<AudioFile>S1_Bird_13.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="287115966"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_Bird_13" ID="{0B54CA86-235C-46B8-84AA-479A54A036B5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="S1_Bird_14" ID="{9A6952B0-DF64-411C-AEF2-72D75E50A6FB}" ShortID="721308025">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_Bird_14" ID="{F5A5137E-B1FB-40CA-A680-7380176BD87C}">
+													<Language>SFX</Language>
+													<AudioFile>S1_Bird_14.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="394450075"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_Bird_14" ID="{F5A5137E-B1FB-40CA-A680-7380176BD87C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="S1_Bird_15" ID="{679373AB-12C2-4EB3-8E3F-BBEB999811C7}" ShortID="1037289790">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_Bird_15" ID="{E5ABF531-C363-4A6A-9DD7-2B56BA077817}">
+													<Language>SFX</Language>
+													<AudioFile>S1_Bird_15.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="844884823"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_Bird_15" ID="{E5ABF531-C363-4A6A-9DD7-2B56BA077817}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="S1_Bird_16" ID="{47D21928-0302-44F9-8137-37321E7300A0}" ShortID="82383886">
+											<PropertyList>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_Bird_16" ID="{A41D79DB-3D18-4CF2-9DB2-A127A35493DC}">
+													<Language>SFX</Language>
+													<AudioFile>S1_Bird_16.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="475341684"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_Bird_16" ID="{A41D79DB-3D18-4CF2-9DB2-A127A35493DC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Silence" ID="{E1E3A46A-FB13-46FD-B411-08E80D79038D}" ShortID="764330336">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{062DA019-15CA-4B7B-A0FC-B4ABA4162DB8}" ShortID="951092518" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="5"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{062DA019-15CA-4B7B-A0FC-B4ABA4162DB8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="scilence-2" ID="{5D1BFA96-34DF-4451-8CB9-762CD2F538DD}" ShortID="672814940">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{9F2B2F29-26D8-4D86-B228-159FFADD808F}" ShortID="460182231" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="3"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{9F2B2F29-26D8-4D86-B228-159FFADD808F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{0E1F2D57-DA85-4D82-9313-63F128EC875E}">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="False"/>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="2"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="birds_Path" ID="{DD115BA7-DF47-4ADF-820F-B9348B484071}">
+													<PointList>
+														<Point>
+															<XPos>-75.1269</XPos>
+															<YPos>47.74011</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-55.8375634517766</XPos>
+															<YPos>68.9265536723164</YPos>
+															<Flags>0</Flags>
+															<Time>714</Time>
+														</Point>
+														<Point>
+															<XPos>-8.12182741116752</XPos>
+															<YPos>87.0056497175141</YPos>
+															<Flags>0</Flags>
+															<Time>1428</Time>
+														</Point>
+														<Point>
+															<XPos>67.005076142132</XPos>
+															<YPos>87.0056497175141</YPos>
+															<Flags>0</Flags>
+															<Time>2142</Time>
+														</Point>
+														<Point>
+															<XPos>88.8324873096447</XPos>
+															<YPos>48.0225988700565</YPos>
+															<Flags>0</Flags>
+															<Time>2857</Time>
+														</Point>
+														<Point>
+															<XPos>59.8984771573604</XPos>
+															<YPos>41.8079096045198</YPos>
+															<Flags>0</Flags>
+															<Time>3571</Time>
+														</Point>
+														<Point>
+															<XPos>79.1878172588833</XPos>
+															<YPos>25.4237288135593</YPos>
+															<Flags>0</Flags>
+															<Time>4285</Time>
+														</Point>
+														<Point>
+															<XPos>-67.00508</XPos>
+															<YPos>88.13559</YPos>
+															<ZPos>29</ZPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="birds_Path_01" ID="{1F6E2AA3-6E9B-4CB2-B083-F4DAFC226976}">
+													<PointList>
+														<Point>
+															<XPos>-55.32995</XPos>
+															<YPos>44.35028</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-95.4314720812183</XPos>
+															<YPos>63.8418079096045</YPos>
+															<Flags>0</Flags>
+															<Time>1666</Time>
+														</Point>
+														<Point>
+															<XPos>-24.3654822335025</XPos>
+															<YPos>66.1016949152542</YPos>
+															<Flags>0</Flags>
+															<Time>3333</Time>
+														</Point>
+														<Point>
+															<XPos>58.3756345177665</XPos>
+															<YPos>81.9209039548023</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="birds_Path_02" ID="{915D3D6F-981C-4C3E-BA04-208FE4F74ABD}">
+													<PointList>
+														<Point>
+															<XPos>90.35533</XPos>
+															<YPos>67.51412</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>43.1472081218274</XPos>
+															<YPos>68.361581920904</YPos>
+															<Flags>0</Flags>
+															<Time>1000</Time>
+														</Point>
+														<Point>
+															<XPos>-99.49239</XPos>
+															<YPos>67.23164</YPos>
+															<Flags>0</Flags>
+															<Time>2000</Time>
+														</Point>
+														<Point>
+															<XPos>60.9137055837564</XPos>
+															<YPos>82.4858757062147</YPos>
+															<Flags>0</Flags>
+															<Time>3000</Time>
+														</Point>
+														<Point>
+															<XPos>88.8324873096447</XPos>
+															<YPos>83.6158192090395</YPos>
+															<Flags>0</Flags>
+															<Time>4000</Time>
+														</Point>
+														<Point>
+															<XPos>-76.1421319796954</XPos>
+															<YPos>44.6327683615819</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="birds_Path_03" ID="{94B4FAD3-E13C-4312-A7F4-4DCA693D7642}">
+													<PointList>
+														<Point>
+															<XPos>78.6802</XPos>
+															<YPos>34.18079</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>42.6395939086295</XPos>
+															<YPos>65.5367231638418</YPos>
+															<Flags>0</Flags>
+															<Time>1000</Time>
+														</Point>
+														<Point>
+															<XPos>-45.1776649746193</XPos>
+															<YPos>84.180790960452</YPos>
+															<Flags>0</Flags>
+															<Time>2000</Time>
+														</Point>
+														<Point>
+															<XPos>-83.756345177665</XPos>
+															<YPos>36.1581920903955</YPos>
+															<Flags>0</Flags>
+															<Time>3000</Time>
+														</Point>
+														<Point>
+															<XPos>-21.8274111675127</XPos>
+															<YPos>49.1525423728814</YPos>
+															<Flags>0</Flags>
+															<Time>4000</Time>
+														</Point>
+														<Point>
+															<XPos>86.2944162436548</XPos>
+															<YPos>89.2655367231638</YPos>
+															<Flags>0</Flags>
+															<Time>5000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<BlendContainer Name="crickets" ID="{1F7F67EC-21B9-4F9C-AE5A-0C1959D4F2EF}" ShortID="720286305">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="S1_cricket_1" ID="{EDD9730A-8D79-48DA-BDF4-45258FC5FE00}" ShortID="727964125">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_cricket_1" ID="{E804347A-551F-4515-931C-C07FD445B97B}">
+													<Language>SFX</Language>
+													<AudioFile>S1_cricket_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="168082024"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{FE47051B-8897-479E-AE18-6AE52E78F5DE}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="S1_cricket_1_Path" ID="{1C713DF1-4CDB-43CF-AD10-294D7B537850}">
+															<PointList>
+																<Point>
+																	<XPos>-87.30964</XPos>
+																	<YPos>44.91525</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>-78.6802030456853</XPos>
+																	<YPos>58.7570621468927</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>-53.2994923857868</XPos>
+																	<YPos>81.3559322033898</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="S1_cricket_1_Path_01" ID="{E14CD2A6-EB87-4E72-83A9-ED4000E40534}">
+															<PointList>
+																<Point>
+																	<XPos>60.40609</XPos>
+																	<YPos>83.89831</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>84.7715736040609</XPos>
+																	<YPos>31.0734463276836</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>86.8020304568528</XPos>
+																	<YPos>79.6610169491525</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_cricket_1" ID="{E804347A-551F-4515-931C-C07FD445B97B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="S1_cricket_2" ID="{798503E3-1CCE-4DD5-8324-5C46246C0A60}" ShortID="372645498">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_cricket_2" ID="{30204729-72B0-4FE6-85B7-3A5B6A6DBCB0}">
+													<Language>SFX</Language>
+													<AudioFile>S1_cricket_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="622241718"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{59198A04-5582-41AE-B347-7C39471D4180}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="S1_cricket_2_Path" ID="{EF6698B8-FC0E-49C8-B328-F75E70EF3646}">
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>-7.10659898477157</XPos>
+																	<YPos>70.6214689265537</YPos>
+																	<Flags>0</Flags>
+																	<Time>1250</Time>
+																</Point>
+																<Point>
+																	<XPos>10.6598984771574</XPos>
+																	<YPos>80.225988700565</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>9.13705583756345</XPos>
+																	<YPos>61.0169491525424</YPos>
+																	<Flags>0</Flags>
+																	<Time>3750</Time>
+																</Point>
+																<Point>
+																	<XPos>40.6091370558376</XPos>
+																	<YPos>40.1129943502825</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="S1_cricket_2_Path_01" ID="{7AC37EDD-E8EE-4A9E-A782-7A2D2A36E0F2}">
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>-40.1015228426396</XPos>
+																	<YPos>56.4971751412429</YPos>
+																	<Flags>0</Flags>
+																	<Time>1666</Time>
+																</Point>
+																<Point>
+																	<XPos>-46.7005076142132</XPos>
+																	<YPos>77.4011299435028</YPos>
+																	<Flags>0</Flags>
+																	<Time>3333</Time>
+																</Point>
+																<Point>
+																	<XPos>-58.3756345177665</XPos>
+																	<YPos>79.0960451977401</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_cricket_2" ID="{30204729-72B0-4FE6-85B7-3A5B6A6DBCB0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="S1_cricket_3" ID="{2F572A06-AD81-4325-8265-6AB51B9118A4}" ShortID="351661351">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_cricket_3" ID="{FF6C14A1-3CF3-45D2-93E2-E37DFB5A4908}">
+													<Language>SFX</Language>
+													<AudioFile>S1_cricket_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="124817106"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{B638166E-BD5D-4663-B9D2-08574D71B5E6}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="S1_cricket_3_Path" ID="{1E9B43A3-85C8-4A53-B3D5-27CB430C2B7C}">
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>71.0659898477157</XPos>
+																	<YPos>67.7966101694915</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>42.1319796954315</XPos>
+																	<YPos>86.4406779661017</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="S1_cricket_3_Path_01" ID="{1E4FFD93-1345-4A71-8245-6C586103BCD3}">
+															<PointList>
+																<Point>
+																	<XPos>-93.40102</XPos>
+																	<YPos>51.12994</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>-76.1421319796954</XPos>
+																	<YPos>81.9209039548023</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>-39.5939086294416</XPos>
+																	<YPos>59.3220338983051</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="S1_cricket_3_Path_02" ID="{A04AEE68-9DDC-4CC2-803D-0F66FB2EB4FF}">
+															<PointList>
+																<Point>
+																	<XPos>-86.29442</XPos>
+																	<YPos>70.90395</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>12.6903553299492</XPos>
+																	<YPos>85.3107344632768</YPos>
+																	<Flags>0</Flags>
+																	<Time>1666</Time>
+																</Point>
+																<Point>
+																	<XPos>76.1421319796954</XPos>
+																	<YPos>53.6723163841808</YPos>
+																	<Flags>0</Flags>
+																	<Time>3333</Time>
+																</Point>
+																<Point>
+																	<XPos>61.4213197969543</XPos>
+																	<YPos>80.225988700565</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_cricket_3" ID="{FF6C14A1-3CF3-45D2-93E2-E37DFB5A4908}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="S1_cricket_4" ID="{349742B8-08B9-4CCA-82CE-68025AD6FAF1}" ShortID="639142904">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_cricket_4" ID="{DD28A6FF-D93D-49ED-BFA9-2D16023EC302}">
+													<Language>SFX</Language>
+													<AudioFile>S1_cricket_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1063524045"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{4C1ACBAE-68CB-4A82-BBF9-ED6CF9633EAA}">
+													<PropertyList>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="S1_cricket_4_Path" ID="{573860E0-69F5-45BA-A034-5EEAA049E067}">
+															<PointList>
+																<Point>
+																	<XPos>79.18782</XPos>
+																	<YPos>31.35593</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>86.8020304568528</XPos>
+																	<YPos>80.225988700565</YPos>
+																	<Flags>0</Flags>
+																	<Time>1666</Time>
+																</Point>
+																<Point>
+																	<XPos>41.6243654822335</XPos>
+																	<YPos>26.5536723163842</YPos>
+																	<Flags>0</Flags>
+																	<Time>3333</Time>
+																</Point>
+																<Point>
+																	<XPos>-31.4720812182741</XPos>
+																	<YPos>10.1694915254237</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="S1_cricket_4_Path_01" ID="{FA9A5800-8761-4BB0-95F5-D9A3E8B375EB}">
+															<PointList>
+																<Point>
+																	<XPos>-25.88832</XPos>
+																	<YPos>53.9548</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>77.4011299435028</YPos>
+																	<Flags>0</Flags>
+																	<Time>1250</Time>
+																</Point>
+																<Point>
+																	<XPos>24.3654822335025</XPos>
+																	<YPos>54.2372881355932</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>-87.3096446700508</XPos>
+																	<YPos>27.683615819209</YPos>
+																	<Flags>0</Flags>
+																	<Time>3750</Time>
+																</Point>
+																<Point>
+																	<XPos>-30.4568527918782</XPos>
+																	<YPos>18.6440677966102</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="S1_cricket_4_Path_02" ID="{CBB03C8D-8E35-4267-89A8-E2205476B986}">
+															<PointList>
+																<Point>
+																	<XPos>-71.06599</XPos>
+																	<YPos>81.07345</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>4.06091370558376</XPos>
+																	<YPos>80.7909604519774</YPos>
+																	<Flags>0</Flags>
+																	<Time>1250</Time>
+																</Point>
+																<Point>
+																	<XPos>71.0659898477157</XPos>
+																	<YPos>87.5706214689266</YPos>
+																	<Flags>0</Flags>
+																	<Time>2500</Time>
+																</Point>
+																<Point>
+																	<XPos>98.4771573604061</XPos>
+																	<YPos>54.2372881355932</YPos>
+																	<Flags>0</Flags>
+																	<Time>3750</Time>
+																</Point>
+																<Point>
+																	<XPos>39.5939086294416</XPos>
+																	<YPos>37.8531073446328</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_cricket_4" ID="{DD28A6FF-D93D-49ED-BFA9-2D16023EC302}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</BlendContainer>
+								<BlendContainer Name="wind" ID="{FDC6774B-8082-4233-BF41-7A475C326391}" ShortID="1037895714">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="S1_windloop" ID="{F9FD3852-1E6B-4838-BB0D-6C8631C49444}" ShortID="809594001">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-22</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4608D4DB-6750-4EA2-A793-69223619AB73}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B86524EB-CB4C-46A2-B4A1-0F947AF0786F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="S1_windloop" ID="{FD0C4D52-91EF-4CC2-99E6-9C41EBF16A8C}">
+													<Language>SFX</Language>
+													<AudioFile>S1_windloop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="730324607"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="S1_windloop" ID="{FD0C4D52-91EF-4CC2-99E6-9C41EBF16A8C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</BlendContainer>
+							</ChildrenList>
+							<ObjectLists/>
+						</BlendContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

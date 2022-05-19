@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{28115BD5-C282-4BD4-9F87-22A0E0227B1B}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{28115BD5-C282-4BD4-9F87-22A0E0227B1B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{3DC35941-1CF9-4E56-84BB-13615361F00D}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Game_Start_event" ID="{F98460AB-BC8F-4497-9993-A45487C7214A}" WorkUnitID="{5E109FEF-32A8-4BC1-8764-19C6B38628DA}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="lagoon_event" ID="{2A3982F6-4202-4D73-B470-4A0DDDF974F8}" WorkUnitID="{5E109FEF-32A8-4BC1-8764-19C6B38628DA}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="M3_start_event" ID="{7A25D553-1935-48B3-830D-27CC82B406C7}" WorkUnitID="{5E109FEF-32A8-4BC1-8764-19C6B38628DA}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="menu_event" ID="{5B2400FB-BE82-4337-BD43-E84DB94CF478}" WorkUnitID="{5E109FEF-32A8-4BC1-8764-19C6B38628DA}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="lagoon_stop_event" ID="{C9FFCD3D-974E-451D-A2F2-D02FC0454B01}" WorkUnitID="{5E109FEF-32A8-4BC1-8764-19C6B38628DA}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="at_lagoon_state" ID="{7D8C1DDF-09BD-49D5-912C-CA3910E4F096}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

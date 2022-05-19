@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9CA2D29F-1F30-44C5-95D6-9762122CF82B}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{9CA2D29F-1F30-44C5-95D6-9762122CF82B}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="states" ID="{5144825B-A5D4-4FC4-BBEA-507ECA45800C}">
+					<ChildrenList>
+						<State Name="None" ID="{D6E1EAF6-4BD9-414A-A10F-42777DE65DCA}"/>
+						<State Name="M1_game_start_state" ID="{D5672C9A-7A9D-470E-ADF3-190FA597C075}"/>
+						<State Name="menu_state" ID="{EDE624B5-1925-4559-AB37-E014B2F62DBB}"/>
+						<State Name="M2_state" ID="{DF1EBE3E-A3FC-4D8B-9765-B7F72F69661C}"/>
+						<State Name="M2_end" ID="{8516FEE1-5B82-407C-A1AB-5148D95F5C1B}"/>
+						<State Name="at_lagoon_state" ID="{7D8C1DDF-09BD-49D5-912C-CA3910E4F096}"/>
+						<State Name="M3_state" ID="{32D99D82-0509-4D05-B099-E51C1671F009}"/>
+						<State Name="M4_state" ID="{2A6E3C22-BC85-44BE-97EA-B479EAA05AFB}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
